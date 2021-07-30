@@ -47,7 +47,7 @@
                     <table class="table">
                         <thead>
                             <tr>
-                                <th scope="col">ID</th>
+                                <th scope="col">ID aafavhjayksuv</th>
                                 <th scope="col">Tên Sản phẩm</th>
                                 <th scope="col">Size</th>
                                 <th scope="col">Giá</th>
