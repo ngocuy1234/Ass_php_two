@@ -1,0 +1,11 @@
+.content {
+    padding-top: 80px;
+    width: 1150px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.section__img {
+    width: 100%;
+    margin-bottom: 30px;
+}

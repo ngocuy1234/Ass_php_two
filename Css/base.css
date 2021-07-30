@@ -1,0 +1,129 @@
+:root {
+    --white-color: #ffff;
+    --black-color: #000;
+    --Gray-color: #666;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* -------------------- */
+.section__footer {
+    border-bottom: 1px solid #ccc;
+}
+
+.section__footer-label {
+    color: var(--black-color);
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+
+.section__footer-bag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.section__footer-form {
+    padding-left: 20px;
+}
+
+.section__footer-form-input {
+    width: 200px;
+    padding-left: 10px;
+    font-size: 14px;
+    height: 32px;
+}
+
+.section__footer-form-submit {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 6px 7px;
+    font-size: 14px;
+    border: none;
+}
+
+/* -------Footer------- */
+.footer__bag {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0px 80px;
+    padding-top: 40px;
+    grid-gap: 100px;
+    background-color: #ebe9e9;
+}
+
+.footer__contact-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+.footer__contact-list {
+    list-style-type: none;
+    margin-left: -30px;
+}
+
+.footer__contact-item {
+    margin-bottom: 10px;
+}
+
+.footer__contact-item a:hover {
+    margin-left: 10px;
+    transition: all 0.3s ease-in-out;
+    color: #8E0007;
+}
+
+.footer__contact-item a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #333;
+}
+
+.footer__contact-icon-list {
+    list-style-type: none;
+    color: #333;
+    display: flex;
+    margin-left: -30px;
+}
+
+.footer__contact-icon-item i[class*="fa"] {
+    font-size: 19px;
+    color: #666;
+}
+
+.footer__contact-icon-item {
+    padding: 0px 10px;
+}
+
+.footer__contact-icon-item:first-child {
+    padding-left: 0px;
+}
+
+.footer__link {
+    height: 40px;
+    text-align: center;
+}
+
+.footer__link p {
+    line-height: 40px;
+    font-size: 15px;
+}
+
+.section__footer {
+    border-top: 1px solid #ccc;
+}

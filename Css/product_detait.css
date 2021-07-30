@@ -1,0 +1,148 @@
+.content {
+    padding-top: 60px;
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(75, 74, 74);
+}
+
+.product__infor {
+    display: grid;
+    grid-template-columns: 505px auto;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 40px;
+}
+
+.img__wrap {
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
+
+.img__bag {
+    margin: 10px 0px;
+    margin-left: 10px;
+}
+
+/* .img__bag img:first-child {
+    margin-left: -2px;
+} */
+
+.img__bag img {
+    width: 85px;
+    margin-left: 10px;
+}
+
+/* -----Product__detail----- */
+.product__detail-bag {
+    text-align: center;
+}
+
+.product__detail-name {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.product__detail-price {
+    font-size: 25px;
+    color: #8E0007;
+}
+
+.product__detail-icon {
+    margin: 20px 0px;
+}
+
+.add__product-heading {
+    font-size: 16px;
+}
+
+.form__label {
+    font-size: 15px;
+}
+
+.input__bag .text {
+    width: 100px;
+    margin-left: 190px;
+}
+
+.input__bag {
+    margin-top: 10px;
+}
+
+.btn__add-product {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    margin: 20px 0px;
+    padding: 5px 10px;
+    border: none;
+}
+
+/* ////// */
+
+.btn__infor {
+    background-color: #ffff;
+    margin-top: 20px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.product__detail-infor {
+    border-bottom: 1px solid #ccc;
+    margin-left: 60px;
+}
+
+.infor__list {
+    width: 450px !important;
+    text-align: left !important;
+    padding-top: 10px;
+}
+
+.infor__list-bag {
+    margin-left: 30px;
+
+}
+
+.infor__list-item {
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.infor__list-item span {
+    color: #777;
+    font-weight: normal;
+}
+
+/* ------ */
+.section__product-similar {
+    margin-bottom: 50px;
+}
+
+.section__product-similar-heading {
+    padding: 20px 0px;
+    font-size: 22px;
+}
+
+.section__product-similar-fist {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.section__product-similar-item img {
+    width: 250px;
+}
+
+.section__product-similar-item {
+    text-align: center;
+}
+
+.section__product-similar-name {
+    font-size: 15px;
+    padding: 10px 0px;
+}
